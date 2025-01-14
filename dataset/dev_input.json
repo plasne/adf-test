@@ -2,7 +2,7 @@
 	"name": "dev_input",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "devsa",
+			"referenceName": "@{dataset().linkedServiceName}",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -11,6 +11,11 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": "input"
+			}
+		},
+		"parameters": {
+			"linkedServiceName": {
+				"type": "String"
 			}
 		}
 	}
