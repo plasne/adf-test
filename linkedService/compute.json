@@ -1,0 +1,13 @@
+{
+	"name": "compute",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-3991969278396354.14.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/50cff123-a1a7-466f-b103-2cb28dee6c62/resourceGroups/pelasne-stage/providers/Microsoft.Databricks/workspaces/pelasne-stage-adb",
+			"existingClusterId": "0114-182247-c3ra6gsu"
+		}
+	}
+}
