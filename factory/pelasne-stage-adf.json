@@ -1,17 +1,17 @@
 {
-	"name": "pelasne-dev-adf",
+	"name": "pelasne-stage-adf",
 	"properties": {
 		"globalParameters": {
 			"storageAccountName": {
 				"type": "string",
-				"value": "pelasnedevsa"
+				"value": "pelasnestagesa"
 			}
 		}
 	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "6264f247-27f6-47ef-8adb-0f0819210af3",
+		"principalId": "b31d5a63-aaab-4f00-97ca-f985f633447e",
 		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
 	}
 }
