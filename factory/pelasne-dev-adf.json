@@ -1,0 +1,9 @@
+{
+	"name": "pelasne-dev-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6264f247-27f6-47ef-8adb-0f0819210af3",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
