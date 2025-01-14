@@ -1,17 +1,21 @@
 {
 	"name": "dev_input",
 	"properties": {
+	  "type": "Binary",
+	  "linkedServiceName": {
+		"referenceName": "@{dataset().linkedServiceName}",
+		"type": "LinkedServiceReference"
+	  },
+	  "parameters": {
 		"linkedServiceName": {
-			"referenceName": "@{pipeline().globalParameters.linkedServiceStorage}",
-			"type": "LinkedServiceReference"
-		},
-		"annotations": [],
-		"type": "Binary",
-		"typeProperties": {
-			"location": {
-				"type": "AzureBlobStorageLocation",
-				"container": "input"
-			}
+		  "type": "String"
 		}
+	  },
+	  "typeProperties": {
+		"location": {
+		  "type": "AzureBlobStorageLocation",
+		  "container": "input"
+		}
+	  }
 	}
-}
+  }
