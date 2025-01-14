@@ -5,6 +5,11 @@
 			"referenceName": "devsa",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"linkedService": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
