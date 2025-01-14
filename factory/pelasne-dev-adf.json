@@ -5,6 +5,22 @@
 			"storageAccountName": {
 				"type": "string",
 				"value": "pelasnedevsa"
+			},
+			"computeCluster": {
+				"type": "string",
+				"value": "0114-185249-flm6xegy"
+			},
+			"computeRG": {
+				"type": "string",
+				"value": "pelasne-dev"
+			},
+			"computeInstance": {
+				"type": "string",
+				"value": "pelasne-dev-adb2"
+			},
+			"computeUri": {
+				"type": "string",
+				"value": "https://adb-3779896570281075.15.azuredatabricks.net"
 			}
 		}
 	},
