@@ -2,7 +2,7 @@
 	"name": "dev_output",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "devsa",
+			"referenceName": "@{pipeline().globalParameters.linkedServiceStorage}",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "output"
+				"container": "input"
 			}
 		}
 	}

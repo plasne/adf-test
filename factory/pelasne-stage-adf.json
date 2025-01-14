@@ -2,9 +2,9 @@
 	"name": "pelasne-stage-adf",
 	"properties": {
 		"globalParameters": {
-			"linkedServiceInput": {
+			"linkedServiceStorage": {
 				"type": "string",
-				"value": "devsa"
+				"value": "stagesa"
 			}
 		}
 	},

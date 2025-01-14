@@ -1,5 +1,13 @@
 {
 	"name": "pelasne-dev-adf",
+	"properties": {
+		"globalParameters": {
+			"linkedServiceStorage": {
+				"type": "string",
+				"value": "devsa"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
