@@ -4,7 +4,7 @@
 		"globalParameters": {
 			"linkedServiceInput": {
 				"type": "string",
-				"value": "dev"
+				"value": "devsa"
 			}
 		}
 	},
