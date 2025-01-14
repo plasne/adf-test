@@ -1,0 +1,9 @@
+{
+	"name": "pelasne-stage-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b31d5a63-aaab-4f00-97ca-f985f633447e",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
