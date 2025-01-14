@@ -1,5 +1,13 @@
 {
 	"name": "pelasne-stage-adf",
+	"properties": {
+		"globalParameters": {
+			"linkedServiceInput": {
+				"type": "string",
+				"value": "dev"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
