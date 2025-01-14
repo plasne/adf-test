@@ -2,9 +2,9 @@
 	"name": "pelasne-dev-adf",
 	"properties": {
 		"globalParameters": {
-			"linkedServiceStorage": {
+			"storageAccountName": {
 				"type": "string",
-				"value": "devsa"
+				"value": "pelasnedevsa"
 			}
 		}
 	},

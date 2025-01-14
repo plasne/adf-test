@@ -3,13 +3,8 @@
 	"properties": {
 	  "type": "Binary",
 	  "linkedServiceName": {
-		"referenceName": "@{dataset().linkedServiceName}",
+		"referenceName": "storage",
 		"type": "LinkedServiceReference"
-	  },
-	  "parameters": {
-		"linkedServiceName": {
-		  "type": "String"
-		}
 	  },
 	  "typeProperties": {
 		"location": {

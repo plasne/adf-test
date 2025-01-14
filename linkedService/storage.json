@@ -1,10 +1,10 @@
 {
-	"name": "devsa",
+	"name": "storage",
 	"properties": {
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"serviceEndpoint": "https://pelasnedevsa.blob.core.windows.net/",
+			"serviceEndpoint": "https://@{pipeline().globalParameters.storageAccountName}.blob.core.windows.net/",
 			"accountKind": "StorageV2"
 		}
 	}
